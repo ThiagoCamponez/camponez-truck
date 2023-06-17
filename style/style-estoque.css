@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: black; 
+}
+
+header {
+    background-image: linear-gradient(-225deg, #2c0303 0%, #5e0404 29%, #a31010 67%, #380808 100%);
+    color: #fff;
+    text-align: left;
+    box-shadow: 2px 3px 10px black;
+    min-height: 150px;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.863);
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.863);
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c91616;
+    text-shadow: 1px 1px 1px white;
+    background-color: rgba(185, 184, 184, 0.295);
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+    background-color: white;
+    text-align: left;
+}
+
+main > h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 20px;
+}
+
+.principal {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.pg-principal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    padding: 10px;
+    text-align: center;
+}
+.pg-principal img{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 240px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+.pg-principal h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    margin: 5px;
+}
+
+.pg-principal h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+.pg-principal a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(57, 57, 233);
+}
+
+footer {
+    background-image: linear-gradient(-225deg, #2c0303 0%, #5e0404 29%, #a31010 67%, #380808 100%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}

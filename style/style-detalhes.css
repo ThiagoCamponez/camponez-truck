@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: white; 
+}
+
+header {
+    background-image: linear-gradient(-225deg, #2c0303 0%, #5e0404 29%, #a31010 67%, #380808 100%);
+    color: #fff;
+    text-align: left;
+    min-height: 150px;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.863);
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.863);
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    background-color: rgba(185, 184, 184, 0.295);
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+    background-color: white;
+}
+
+.foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.foto img{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.detalhes{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.detalhes h1{
+    font-size: 2.5em;
+}
+
+.detalhes h2{
+    font-size: 2em;
+}
+
+.detalhes p{
+    font-size: 1.5em;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#btn-contato{
+    padding: 10px 8px;
+    width: 200px;
+    height: 50px;
+    background-color:#67C15E;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.1em;
+    color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+#btn-voltar{
+    padding: 10px 8px;
+    width: 200px;
+    height: 50px;
+    background-color:#ff0707;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.1em;
+    color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+button > a{
+    text-decoration: none;
+    color:white;
+}
+
+button:hover{
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 2px 2px 10px black;
+}
+
+footer {
+    background-image: linear-gradient(-225deg, #2c0303 0%, #5e0404 29%, #a31010 67%, #380808 100%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
