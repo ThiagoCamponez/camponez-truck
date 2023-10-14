@@ -6,6 +6,11 @@
     <title>Camponêz Truck</title>
     <link rel="stylesheet" href="style/style-home.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script>
+    function myfristfunction() {
+        document.getElementById("first").style.display="none"
+    }
+    </script>
 </head>
 <body>
     <header>        
@@ -22,12 +27,14 @@
         </section>
     </main>
     <footer>
-        <p>
+        <p id="first">
             Site criado por Thiago Camponêz como trabalho final da matéria Padrões para Conteúdo Web
         </p>
+        <button type="button" onclick="myfristfunction()">Esconder</button>
         <p>
             <a href="https://thiagocamponez.github.io/projeto/" target="_blank">Acesse meu Portfólio</a>
         </p>
+        
     </footer>
 </body>
 </html>
